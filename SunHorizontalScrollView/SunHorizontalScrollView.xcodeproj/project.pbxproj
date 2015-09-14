@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27F7AEA51BA6C735004950C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEA41BA6C735004950C3 /* main.m */; };
+		27F7AEA81BA6C735004950C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEA71BA6C735004950C3 /* AppDelegate.m */; };
+		27F7AEAB1BA6C735004950C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEAA1BA6C735004950C3 /* ViewController.m */; };
+		27F7AEAE1BA6C735004950C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F7AEAC1BA6C735004950C3 /* Main.storyboard */; };
+		27F7AEB01BA6C735004950C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F7AEAF1BA6C735004950C3 /* Assets.xcassets */; };
+		27F7AEB31BA6C735004950C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F7AEB11BA6C735004950C3 /* LaunchScreen.storyboard */; };
+		27F7AEBE1BA6C736004950C3 /* SunHorizontalScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEBD1BA6C736004950C3 /* SunHorizontalScrollViewTests.m */; };
+		27F7AEC91BA6C736004950C3 /* SunHorizontalScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEC81BA6C736004950C3 /* SunHorizontalScrollViewUITests.m */; };
+		27F7AEDD1BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AED81BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m */; };
+		27F7AEDE1BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AED81BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m */; };
+		27F7AEDF1BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AED81BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m */; };
+		27F7AEE01BA6C75E004950C3 /* SunHorizontalScrollMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEDA1BA6C75E004950C3 /* SunHorizontalScrollMedia.m */; };
+		27F7AEE11BA6C75E004950C3 /* SunHorizontalScrollMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEDA1BA6C75E004950C3 /* SunHorizontalScrollMedia.m */; };
+		27F7AEE21BA6C75E004950C3 /* SunHorizontalScrollMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEDA1BA6C75E004950C3 /* SunHorizontalScrollMedia.m */; };
+		27F7AEE31BA6C75E004950C3 /* SunHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEDC1BA6C75E004950C3 /* SunHorizontalScrollView.m */; };
+		27F7AEE41BA6C75E004950C3 /* SunHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEDC1BA6C75E004950C3 /* SunHorizontalScrollView.m */; };
+		27F7AEE51BA6C75E004950C3 /* SunHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEDC1BA6C75E004950C3 /* SunHorizontalScrollView.m */; };
+		27F7AEE91BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEE81BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m */; };
+		27F7AEEA1BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEE81BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m */; };
+		27F7AEEB1BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F7AEE81BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m */; };
+		65BA808456DD158B83C1D3AE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5854CBC1592F1BE72963E45 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27F7AEBA1BA6C735004950C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27F7AE981BA6C735004950C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F7AE9F1BA6C735004950C3;
+			remoteInfo = SunHorizontalScrollView;
+		};
+		27F7AEC51BA6C736004950C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27F7AE981BA6C735004950C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F7AE9F1BA6C735004950C3;
+			remoteInfo = SunHorizontalScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		217BA6E1C0668217EC105E14 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		27F7AEA01BA6C735004950C3 /* SunHorizontalScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunHorizontalScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F7AEA41BA6C735004950C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27F7AEA61BA6C735004950C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27F7AEA71BA6C735004950C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27F7AEA91BA6C735004950C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27F7AEAA1BA6C735004950C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27F7AEAD1BA6C735004950C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27F7AEAF1BA6C735004950C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27F7AEB21BA6C735004950C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27F7AEB41BA6C735004950C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F7AEB91BA6C735004950C3 /* SunHorizontalScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunHorizontalScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F7AEBD1BA6C736004950C3 /* SunHorizontalScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunHorizontalScrollViewTests.m; sourceTree = "<group>"; };
+		27F7AEBF1BA6C736004950C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F7AEC41BA6C736004950C3 /* SunHorizontalScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunHorizontalScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F7AEC81BA6C736004950C3 /* SunHorizontalScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunHorizontalScrollViewUITests.m; sourceTree = "<group>"; };
+		27F7AECA1BA6C736004950C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F7AED71BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunHorizontalImageCollectionViewCell.h; sourceTree = "<group>"; };
+		27F7AED81BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunHorizontalImageCollectionViewCell.m; sourceTree = "<group>"; };
+		27F7AED91BA6C75E004950C3 /* SunHorizontalScrollMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunHorizontalScrollMedia.h; sourceTree = "<group>"; };
+		27F7AEDA1BA6C75E004950C3 /* SunHorizontalScrollMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunHorizontalScrollMedia.m; sourceTree = "<group>"; };
+		27F7AEDB1BA6C75E004950C3 /* SunHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunHorizontalScrollView.h; sourceTree = "<group>"; };
+		27F7AEDC1BA6C75E004950C3 /* SunHorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunHorizontalScrollView.m; sourceTree = "<group>"; };
+		27F7AEE71BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunHorizontalScrollTableViewCell.h; sourceTree = "<group>"; };
+		27F7AEE81BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunHorizontalScrollTableViewCell.m; sourceTree = "<group>"; };
+		3FF4D15F023D04A52B60E6B0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C5854CBC1592F1BE72963E45 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27F7AE9D1BA6C735004950C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BA808456DD158B83C1D3AE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F7AEB61BA6C735004950C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F7AEC11BA6C736004950C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B916F3D5AF90F0974FD04C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				217BA6E1C0668217EC105E14 /* Pods.debug.xcconfig */,
+				3FF4D15F023D04A52B60E6B0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27F7AE971BA6C735004950C3 = {
+			isa = PBXGroup;
+			children = (
+				27F7AEA21BA6C735004950C3 /* SunHorizontalScrollView */,
+				27F7AEBC1BA6C735004950C3 /* SunHorizontalScrollViewTests */,
+				27F7AEC71BA6C736004950C3 /* SunHorizontalScrollViewUITests */,
+				27F7AEA11BA6C735004950C3 /* Products */,
+				0B916F3D5AF90F0974FD04C1 /* Pods */,
+				A754EB3827A7094CBFA098CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27F7AEA11BA6C735004950C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27F7AEA01BA6C735004950C3 /* SunHorizontalScrollView.app */,
+				27F7AEB91BA6C735004950C3 /* SunHorizontalScrollViewTests.xctest */,
+				27F7AEC41BA6C736004950C3 /* SunHorizontalScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27F7AEA21BA6C735004950C3 /* SunHorizontalScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				27F7AEE61BA6C77D004950C3 /* Cell */,
+				27F7AED61BA6C75E004950C3 /* Classes */,
+				27F7AEA61BA6C735004950C3 /* AppDelegate.h */,
+				27F7AEA71BA6C735004950C3 /* AppDelegate.m */,
+				27F7AEA91BA6C735004950C3 /* ViewController.h */,
+				27F7AEAA1BA6C735004950C3 /* ViewController.m */,
+				27F7AEAC1BA6C735004950C3 /* Main.storyboard */,
+				27F7AEAF1BA6C735004950C3 /* Assets.xcassets */,
+				27F7AEB11BA6C735004950C3 /* LaunchScreen.storyboard */,
+				27F7AEB41BA6C735004950C3 /* Info.plist */,
+				27F7AEA31BA6C735004950C3 /* Supporting Files */,
+			);
+			path = SunHorizontalScrollView;
+			sourceTree = "<group>";
+		};
+		27F7AEA31BA6C735004950C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27F7AEA41BA6C735004950C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27F7AEBC1BA6C735004950C3 /* SunHorizontalScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				27F7AEBD1BA6C736004950C3 /* SunHorizontalScrollViewTests.m */,
+				27F7AEBF1BA6C736004950C3 /* Info.plist */,
+			);
+			path = SunHorizontalScrollViewTests;
+			sourceTree = "<group>";
+		};
+		27F7AEC71BA6C736004950C3 /* SunHorizontalScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27F7AEC81BA6C736004950C3 /* SunHorizontalScrollViewUITests.m */,
+				27F7AECA1BA6C736004950C3 /* Info.plist */,
+			);
+			path = SunHorizontalScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		27F7AED61BA6C75E004950C3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27F7AED71BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.h */,
+				27F7AED81BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m */,
+				27F7AED91BA6C75E004950C3 /* SunHorizontalScrollMedia.h */,
+				27F7AEDA1BA6C75E004950C3 /* SunHorizontalScrollMedia.m */,
+				27F7AEDB1BA6C75E004950C3 /* SunHorizontalScrollView.h */,
+				27F7AEDC1BA6C75E004950C3 /* SunHorizontalScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27F7AEE61BA6C77D004950C3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				27F7AEE71BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.h */,
+				27F7AEE81BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A754EB3827A7094CBFA098CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5854CBC1592F1BE72963E45 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27F7AE9F1BA6C735004950C3 /* SunHorizontalScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F7AECD1BA6C736004950C3 /* Build configuration list for PBXNativeTarget "SunHorizontalScrollView" */;
+			buildPhases = (
+				9A56B2A9DCFD45286D3F6006 /* Check Pods Manifest.lock */,
+				27F7AE9C1BA6C735004950C3 /* Sources */,
+				27F7AE9D1BA6C735004950C3 /* Frameworks */,
+				27F7AE9E1BA6C735004950C3 /* Resources */,
+				AD3C1560B121DBD2FA275E68 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunHorizontalScrollView;
+			productName = SunHorizontalScrollView;
+			productReference = 27F7AEA01BA6C735004950C3 /* SunHorizontalScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27F7AEB81BA6C735004950C3 /* SunHorizontalScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F7AED01BA6C736004950C3 /* Build configuration list for PBXNativeTarget "SunHorizontalScrollViewTests" */;
+			buildPhases = (
+				27F7AEB51BA6C735004950C3 /* Sources */,
+				27F7AEB61BA6C735004950C3 /* Frameworks */,
+				27F7AEB71BA6C735004950C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F7AEBB1BA6C735004950C3 /* PBXTargetDependency */,
+			);
+			name = SunHorizontalScrollViewTests;
+			productName = SunHorizontalScrollViewTests;
+			productReference = 27F7AEB91BA6C735004950C3 /* SunHorizontalScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27F7AEC31BA6C736004950C3 /* SunHorizontalScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F7AED31BA6C736004950C3 /* Build configuration list for PBXNativeTarget "SunHorizontalScrollViewUITests" */;
+			buildPhases = (
+				27F7AEC01BA6C736004950C3 /* Sources */,
+				27F7AEC11BA6C736004950C3 /* Frameworks */,
+				27F7AEC21BA6C736004950C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F7AEC61BA6C736004950C3 /* PBXTargetDependency */,
+			);
+			name = SunHorizontalScrollViewUITests;
+			productName = SunHorizontalScrollViewUITests;
+			productReference = 27F7AEC41BA6C736004950C3 /* SunHorizontalScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27F7AE981BA6C735004950C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "孙博弘";
+				TargetAttributes = {
+					27F7AE9F1BA6C735004950C3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					27F7AEB81BA6C735004950C3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 27F7AE9F1BA6C735004950C3;
+					};
+					27F7AEC31BA6C736004950C3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 27F7AE9F1BA6C735004950C3;
+					};
+				};
+			};
+			buildConfigurationList = 27F7AE9B1BA6C735004950C3 /* Build configuration list for PBXProject "SunHorizontalScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27F7AE971BA6C735004950C3;
+			productRefGroup = 27F7AEA11BA6C735004950C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27F7AE9F1BA6C735004950C3 /* SunHorizontalScrollView */,
+				27F7AEB81BA6C735004950C3 /* SunHorizontalScrollViewTests */,
+				27F7AEC31BA6C736004950C3 /* SunHorizontalScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27F7AE9E1BA6C735004950C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F7AEB31BA6C735004950C3 /* LaunchScreen.storyboard in Resources */,
+				27F7AEB01BA6C735004950C3 /* Assets.xcassets in Resources */,
+				27F7AEAE1BA6C735004950C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F7AEB71BA6C735004950C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F7AEC21BA6C736004950C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A56B2A9DCFD45286D3F6006 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3C1560B121DBD2FA275E68 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27F7AE9C1BA6C735004950C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F7AEE31BA6C75E004950C3 /* SunHorizontalScrollView.m in Sources */,
+				27F7AEAB1BA6C735004950C3 /* ViewController.m in Sources */,
+				27F7AEE01BA6C75E004950C3 /* SunHorizontalScrollMedia.m in Sources */,
+				27F7AEA81BA6C735004950C3 /* AppDelegate.m in Sources */,
+				27F7AEA51BA6C735004950C3 /* main.m in Sources */,
+				27F7AEDD1BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m in Sources */,
+				27F7AEE91BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F7AEB51BA6C735004950C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F7AEBE1BA6C736004950C3 /* SunHorizontalScrollViewTests.m in Sources */,
+				27F7AEDE1BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m in Sources */,
+				27F7AEEA1BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m in Sources */,
+				27F7AEE41BA6C75E004950C3 /* SunHorizontalScrollView.m in Sources */,
+				27F7AEE11BA6C75E004950C3 /* SunHorizontalScrollMedia.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F7AEC01BA6C736004950C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F7AEC91BA6C736004950C3 /* SunHorizontalScrollViewUITests.m in Sources */,
+				27F7AEDF1BA6C75E004950C3 /* SunHorizontalImageCollectionViewCell.m in Sources */,
+				27F7AEEB1BA6C77D004950C3 /* SunHorizontalScrollTableViewCell.m in Sources */,
+				27F7AEE51BA6C75E004950C3 /* SunHorizontalScrollView.m in Sources */,
+				27F7AEE21BA6C75E004950C3 /* SunHorizontalScrollMedia.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27F7AEBB1BA6C735004950C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F7AE9F1BA6C735004950C3 /* SunHorizontalScrollView */;
+			targetProxy = 27F7AEBA1BA6C735004950C3 /* PBXContainerItemProxy */;
+		};
+		27F7AEC61BA6C736004950C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F7AE9F1BA6C735004950C3 /* SunHorizontalScrollView */;
+			targetProxy = 27F7AEC51BA6C736004950C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27F7AEAC1BA6C735004950C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F7AEAD1BA6C735004950C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27F7AEB11BA6C735004950C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F7AEB21BA6C735004950C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27F7AECB1BA6C736004950C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27F7AECC1BA6C736004950C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27F7AECE1BA6C736004950C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217BA6E1C0668217EC105E14 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunHorizontalScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.SunHorizontalScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27F7AECF1BA6C736004950C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF4D15F023D04A52B60E6B0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunHorizontalScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.SunHorizontalScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27F7AED11BA6C736004950C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunHorizontalScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.SunHorizontalScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunHorizontalScrollView.app/SunHorizontalScrollView";
+			};
+			name = Debug;
+		};
+		27F7AED21BA6C736004950C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunHorizontalScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.SunHorizontalScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunHorizontalScrollView.app/SunHorizontalScrollView";
+			};
+			name = Release;
+		};
+		27F7AED41BA6C736004950C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SunHorizontalScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.SunHorizontalScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SunHorizontalScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		27F7AED51BA6C736004950C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SunHorizontalScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sun.SunHorizontalScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SunHorizontalScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27F7AE9B1BA6C735004950C3 /* Build configuration list for PBXProject "SunHorizontalScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F7AECB1BA6C736004950C3 /* Debug */,
+				27F7AECC1BA6C736004950C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F7AECD1BA6C736004950C3 /* Build configuration list for PBXNativeTarget "SunHorizontalScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F7AECE1BA6C736004950C3 /* Debug */,
+				27F7AECF1BA6C736004950C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F7AED01BA6C736004950C3 /* Build configuration list for PBXNativeTarget "SunHorizontalScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F7AED11BA6C736004950C3 /* Debug */,
+				27F7AED21BA6C736004950C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F7AED31BA6C736004950C3 /* Build configuration list for PBXNativeTarget "SunHorizontalScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F7AED41BA6C736004950C3 /* Debug */,
+				27F7AED51BA6C736004950C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27F7AE981BA6C735004950C3 /* Project object */;
+}

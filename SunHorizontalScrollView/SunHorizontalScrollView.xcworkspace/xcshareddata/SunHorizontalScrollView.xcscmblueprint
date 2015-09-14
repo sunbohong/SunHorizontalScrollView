@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B2C4EAF81048679E0EAB4CB12D4D5481A6768B63",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B2C4EAF81048679E0EAB4CB12D4D5481A6768B63" : 0,
+    "F9C16446876D95804ABB21E989AD30F1A360C43D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D2C5C109-08B0-4EEE-A620-092EC70390FF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B2C4EAF81048679E0EAB4CB12D4D5481A6768B63" : "SunHorizontalScrollView\/",
+    "F9C16446876D95804ABB21E989AD30F1A360C43D" : "SUNScrollView"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SunHorizontalScrollView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SunHorizontalScrollView\/SunHorizontalScrollView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sunbohong\/SunHorizontalScrollView",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2C4EAF81048679E0EAB4CB12D4D5481A6768B63"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sunbohong\/SUNScrollTableViewCell.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9C16446876D95804ABB21E989AD30F1A360C43D"
+    }
+  ]
+}
