@@ -50,7 +50,7 @@
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    SunHorizontalScrollMedia *mediaObject = self.mediaContainer[indexPath.row];
+    id mediaObject = self.mediaContainer[indexPath.row];
 
     static NSString *cellReuseIdentify = @"SunHorizontalImageCollectionViewCell";
 
@@ -60,12 +60,17 @@
         cell = [[SunHorizontalImageCollectionViewCell alloc] init];
     }
 
-    switch (mediaObject.type) {
-        case SunHorizontalScrollMediaTypeImageURL:
+    if ([mediaObject isKindOfClass:[NSString class]] || [mediaObject isKindOfClass:[NSURL class]]) {
+        [cell setImageWithURL:mediaObject];
+    } else {
+        SunHorizontalScrollMedia *horizontalScrollMedia = (SunHorizontalScrollMedia *)mediaObject;
+        switch (horizontalScrollMedia.type) {
+            case SunHorizontalScrollMediaTypeImageURL:
 
-            [cell setImageWithURL:mediaObject.object];
+                [cell setImageWithURL:horizontalScrollMedia.object];
 
-            break;
+                break;
+        }
     }
 
     return cell;

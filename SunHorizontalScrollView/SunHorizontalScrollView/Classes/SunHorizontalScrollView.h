@@ -31,7 +31,9 @@
 @property (nonatomic, strong, readonly) UICollectionViewFlowLayout *flowLayout;
 
 
+// you can use NSString or NSURL or SunHorizontalScrollMedia
 - (void)setData:(NSArray *)collectionImageData;
+
 - (void)setBackgroundColor:(UIColor *)color;
 
 
