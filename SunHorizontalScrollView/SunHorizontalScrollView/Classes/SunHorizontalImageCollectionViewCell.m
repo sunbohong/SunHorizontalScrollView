@@ -35,7 +35,8 @@
 - (UIImageView *)imageView {
     if (!_imageView) {
         _imageView = [UIImageView new];
-        _imageView.contentMode = UIViewContentModeScaleAspectFill;
+        _imageView.contentMode   = UIViewContentModeScaleAspectFill;
+        _imageView.clipsToBounds = YES;
     }
     return _imageView;
 }
