@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SunHorizontalScrollView"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "An easy-to-use UIView subclass that implements a scrolling effect UIView with images"
   s.homepage     = "https://github.com/sunbohong/SunHorizontalScrollView"
   s.license      = "MIT"
